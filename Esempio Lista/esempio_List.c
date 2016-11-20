@@ -51,7 +51,7 @@ struct s_nodo {
 	/* creazione del nuovo record */ 
 	pNodo = malloc(sizeof(nodo)); 
 	pNodo->info = dato; 
-	pNodo->next = NULL; /* NULL perchË sar‡ l'ultimo in lista */
+	pNodo->next = NULL; /* NULL perch√® sar√† l'ultimo in lista */
 	 /* scansione della lista per trovare l'ultimo*/
     if (*lista == NULL) 
 		*lista = pNodo; 
